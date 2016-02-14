@@ -1,0 +1,14 @@
+sudo chmod -R 775 typo3_src-4.6.6/
+chgrp -R www-data fileadmin typo3conf typo3temp uploads
+
+
+DB: db136017_338
+username: db136017_338
+password: ispoVk3AKL
+
+
+CREATE USER 'db136017_338'@'%' IDENTIFIED BY 'ispoVk3AKL';
+CREATE USER 'db136017_338'@'localhost' IDENTIFIED BY 'ispoVk3AKL';
+GRANT ALL PRIVILEGES ON db136017_338.* TO 'db136017_338'@'%'  WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON db136017_338.* TO 'db136017_338'@'localhost'  WITH GRANT OPTION;
+flush privileges;
