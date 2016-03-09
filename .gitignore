@@ -5,3 +5,4 @@ typo3temp
 index.php
 t3lib
 uploads
+typo3conf/temp_CACHED_*
