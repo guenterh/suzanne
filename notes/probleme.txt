@@ -1,0 +1,8 @@
+fileadmin/template/suzanne_basis_einspaltig.html
+-> wenn ich diese Datei im phpStorm Editor editiere, werden die Zeichen auf eine Ar und Weise gespeichert, die ein Abzeigen nach erneutem Mapping
+(tempavoila) verhindern.
+
+Ändere ich die Datei im gedit zeigt dieser mir an, dass ungültige Zeichen enthalten sind.
+Ich brauche mal ein tool, mit dem ich die enthaltenen Zeichensätze überprüfen kann.
+
+

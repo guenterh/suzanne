@@ -50,7 +50,6 @@ function getBildLegendeGross($content,$conf)
 	$legende = $flexarray['data']['sDEF']['lDEF']['field_bild_gross_legende']['vDEF'];
 
 	return $legende;
-	//return "test";
 	
 }
 
